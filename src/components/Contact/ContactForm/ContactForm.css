@@ -1,0 +1,214 @@
+.contact_form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    border: 5px solid silver;
+    border-radius: 10px;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact_block {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.contact_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 5%;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_header {
+    display: flex;
+    justify-content: center;
+    flex: 0.3;
+}
+
+.contact_info_socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10%;
+    flex: 0.7;
+}
+
+.contact_mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3em;
+}
+
+.mobile_icon {
+    flex: 0.2;
+}
+
+.mobile_number {
+    font-size: 0.8em;
+    flex: 0.8;
+}
+
+.contact_facebook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3em;
+}
+
+.facebook_icon {
+    flex: 0.2;
+}
+
+.facebook_text {
+    font-size: 0.7em;
+    flex: 0.8;
+}
+
+.contact_instagram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3em;
+}
+
+.instagram_icon {
+    flex: 0.2;
+}
+
+.instagram_text {
+    font-size: 0.7em;
+    flex: 0.8;
+}
+
+
+@media only screen and (max-width: 1440px) {
+
+    .mobile_number h1 {
+        font-size: 0.6em;
+        flex: 0.8;
+    }
+
+    .facebook_text h1 {
+        font-size: 1em;
+        flex: 0.8;
+    }
+
+    .instagram_text h1 {
+        font-size: 1em;
+        flex: 0.8;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .mobile_icon {
+        font-size: 0.6em;
+    }
+
+    .mobile_number h1 {
+        font-size: 0.6em;
+        flex: 0.8;
+    }
+
+    .facebook_text h1{
+        font-size: 0.6em;
+        flex: 0.8;
+    }
+
+    .instagram_text h1{
+        font-size: 0.6em;
+        flex: 0.8;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .mobile_icon {
+        font-size: 0.6em;
+    }
+
+    .mobile_number h1 {
+        font-size: 0.4em;
+        flex: 0.8;
+    }
+
+    .facebook_text h1{
+        font-size: 0.4em;
+        flex: 0.8;
+    }
+
+    .instagram_text h1{
+        font-size: 0.4em;
+        flex: 0.8;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .contact_header h1 {
+        font-size: 1em;
+    }
+
+    .mobile_icon {
+        font-size: 0.4em;
+    }
+
+    .facebook_icon {
+        font-size: 0.4em;
+    }
+
+    .instagram_icon {
+        font-size: 0.4em;
+    }
+
+    .mobile_number h1 {
+        font-size: 0.2em;
+        flex: 0.8;
+    }
+
+    .facebook_text h1{
+        font-size: 0.3em;
+        flex: 0.8;
+    }
+
+    .instagram_text h1{
+        font-size: 0.3em;
+        flex: 0.8;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .mobile_number h1 {
+        font-size: 0.2em;
+        flex: 0.8;
+    }
+
+    .facebook_text h1{
+        font-size: 0.2em;
+        flex: 0.8;
+    }
+
+    .instagram_text h1{
+        font-size: 0.2em;
+        flex: 0.8;
+    }
+
+}

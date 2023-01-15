@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    transition: 1s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkgray;
+}
+
+/* LOGO STYLES */
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.active {
+    background-color: #000;
+}
+
+.navbar .navbar_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    margin: auto;
+    padding: 25px;
+}
+
+.logo {
+    width: 130px;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+/* NAVBAR STYLES */
+
+.nav_item {
+    line-height: 2.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1rem;
+    width: 180px;
+}
+
+/* BTN */
+
+.nav-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    opacity: 0;
+    display: none;
+}
+
+@media only screen and (max-width: 1270px) {
+    .nav_item {
+        line-height: 3rem;
+        margin-right: 50px;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-btn {
+        display: block;
+        opacity: 1;
+        font-size: 2rem;
+    }
+
+    .nav_item {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #000;
+        transition: 1s;
+        transform: translateY(-100vh);
+        padding: 180px;
+    }
+
+    /* gamodaxeba menius */
+
+    .responsive_nav {
+        transform: none;
+    }
+
+    .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+}

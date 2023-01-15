@@ -1,0 +1,142 @@
+.second_block_container {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #161616;
+    border-bottom: 1px solid silver;
+}
+
+.block_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner_text {
+    position: absolute;
+}
+
+.banner_text h1 {
+    font-weight: bold;
+    max-width: 400px;
+}
+
+.banner_text p {
+    font-weight: 500;
+}
+
+.banner_text button {
+    padding: 10px 30px;
+    background-color: #fff;
+    font-weight: 800;
+}
+
+.first {
+    display: flex;
+    /* background-image: url("/public/images/block_1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second {
+    display: flex;
+    /* background-image: url("/public/images/block_2.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.third {
+    display: flex;
+    /* background-image: url("/public/images/block_3.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fourth {
+    display: flex;
+    /* background-image: url("/public/images/block_4.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fifth {
+    display: flex;
+    /* background-image: url("/public/images/block_5.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sixth {
+    display: flex;
+    /* background-image: url("/public/images/block_6.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seventh {
+    display: flex;
+    /* background-image: url("/public/images/block_7.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eighth {
+    display: flex;
+    /* background-image: url("/public/images/block_8.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .banner_text button {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .banner_text h1 {
+        font-size: 1em;
+    }
+
+    .banner_text p {
+        font-size: 0.7em;
+    }
+
+    .banner_text button {
+        padding: 5px 20px;
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .banner_text h1 {
+        font-size: 0.8em;
+    }
+
+    .banner_text p {
+        font-size: 0.5em;
+    }
+
+    .banner_text button {
+        padding: 5px 20px;
+        font-size: 0.5em;
+    }
+}

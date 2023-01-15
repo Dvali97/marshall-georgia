@@ -1,0 +1,78 @@
+.contact_content {
+    background-color: #161616;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.contact_content_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_content_header h1 {
+    font-weight: bold;
+}
+
+.contact_content_header p {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.contact_cover {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    color: #fff;
+}
+
+.contact_image {
+    width: 100%;
+    height: auto;
+}
+
+.contact_cover_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    padding-bottom: 5%;
+}
+
+.contact_cover_text h1 {
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.contact_cover_text p {
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact_cover_text h1 {
+        font-weight: bolder;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .contact_cover_text {
+        padding-bottom: 0.5%;
+    }
+
+    .contact_cover_text h1 {
+        font-weight: bolder;
+        font-size: 1em;
+    }
+    
+    .contact_cover_text p {
+        font-weight: 500;
+        font-size: 0.5em;
+    }
+}
