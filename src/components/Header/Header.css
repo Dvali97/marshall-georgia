@@ -13,6 +13,13 @@ a {
     transition: 1s;
 }
 
+.nav_links {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    transition: 1s;
+}
+
 a:hover {
     text-decoration: underline;
     color: darkgray;
@@ -130,7 +137,7 @@ a:hover {
 
 
 @media only screen and (max-width: 375px) {
-    
+
     ul {
         height: auto;
     }
