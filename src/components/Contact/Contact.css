@@ -77,3 +77,25 @@
         font-size: 0.5em;
     }
 }
+
+@media only screen and (max-width: 375px) {
+
+    .contact_content{
+        width: 105%;
+    }
+
+    .contact_cover {
+        width: 105%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .contact_content{
+        width: 120%;
+    }
+
+    .contact_cover {
+        width: 120%;
+    }
+}
