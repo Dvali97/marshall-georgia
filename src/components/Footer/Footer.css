@@ -5,6 +5,7 @@
     padding: 50px;
     background-color: rgb(22, 22, 22);
     color: #fff;
+    border-top: 5px solid silver;
 }
 
 .social {
@@ -26,29 +27,124 @@
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 768px) {
     .footer_container {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
     }
 
     .copyright {
         font-weight: bold;
-        margin-top: 50px;
+        font-size: 0.7em;
     }
 
     .social {
-        margin-bottom: 50px;
+
     }
     
     .facebook {
         font-size: 2rem;
-        width: 5rem;
     }
     
     .instagram {
         font-size: 2rem;
     }
+}
+
+@media only screen and (max-width: 425px) {
+    .footer_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .copyright {
+        font-weight: bold;
+        font-size: 0.5em;
+    }
+
+    .social {
+
+    }
+
+    .logo img{
+        width: 100px;
+    }
+    
+    .facebook {
+        font-size: 2rem;
+    }
+    
+    .instagram {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .footer_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 105%;
+    }
+
+    .copyright {
+        font-weight: bold;
+        font-size: 0.5em;
+    }
+
+    .social {
+
+    }
+
+    .logo img{
+        width: 80px;
+    }
+    
+    .facebook {
+        font-size: 2rem;
+    }
+    
+    .instagram {
+        font-size: 2rem;
+    }
+
+    
+}
+
+@media only screen and (max-width: 320px) {
+    .footer_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 120%;
+    }
+
+    .copyright {
+        font-weight: bold;
+        font-size: 0.5em;
+    }
+
+    .social {
+
+    }
+
+    .logo img{
+        width: 80px;
+    }
+    
+    .facebook {
+        font-size: 2rem;
+    }
+    
+    .instagram {
+        font-size: 2rem;
+    }
+
+    
 }

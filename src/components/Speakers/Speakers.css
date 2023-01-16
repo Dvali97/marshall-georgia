@@ -69,3 +69,25 @@
         font-size: 0.5em;
     }
 }
+
+@media only screen and (max-width: 375px) {
+
+    .speakers_container {
+        width: 105%;
+    }
+
+    .speakers_image {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .speakers_container {
+        width: 120%;
+    }
+
+    .speakers_image {
+        width: 100%;
+    }
+}

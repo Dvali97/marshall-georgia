@@ -26,7 +26,7 @@ const Footer = () => {
             <div className='copyright'>
                 ©2023 ALL RIGHTS RESERVED.
                 <div>
-                    D.D. 551910050
+                    Design by 551910050
                 </div>
             </div>
         </div>

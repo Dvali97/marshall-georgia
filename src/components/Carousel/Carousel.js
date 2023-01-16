@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import './Carousel.css'
 
 // const bogliasco = "https://www.rollingstone.com/wp-content/uploads/2018/06/chuck-berry-rolling-stone-cover-story-2017-farewell-to-the-father-of-rock-6a1a7170-b435-4d63-8c07-8255707d2672.jpg?w=1581&h=1054&crop=1"
 // const countyClare = "https://images.saymedia-content.com/.image/t_share/MTkzNDkwNzg4NzAzODA2Njky/25-greatest-classic-rock-and-roll-songs.jpg"
@@ -13,8 +14,8 @@ const giauPass = '/images/fourth-slide.jpg'
 
 const Slider = () => {
   return (
-    <Carousel>
-      <Carousel.Item interval={800}
+    <Carousel className='carousel_container'>
+      <Carousel.Item interval={1000}
         >
         <img
           className="d-block w-100"
@@ -27,7 +28,7 @@ const Slider = () => {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={800}>
+      <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
           src={countyClare}
@@ -39,7 +40,7 @@ const Slider = () => {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={800}>
+      <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
           src={craterRock}
@@ -51,7 +52,7 @@ const Slider = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={800}>
+      <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
           src={giauPass}

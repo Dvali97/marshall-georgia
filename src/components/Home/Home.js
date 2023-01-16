@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.css'
 import Carousel from './../Carousel/Carousel';
 import FirstBlock from '../FirstBlock/FirstBlock';
 import SecondBlock from '../SecondBlock/SecondBlock';
@@ -11,7 +12,7 @@ const giauPass = "https://www.thisdayinmusic.com/wp-content/uploads/2022/10/born
 
 const Home = () => {
   return (
-    <div>
+    <div className='home_container'>
       <Carousel />
       <FirstBlock />
       <SecondBlock />

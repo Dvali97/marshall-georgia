@@ -3,7 +3,7 @@ import './ProductAccessories.css'
 
 const ProductAccessories = () => {
   return (
-    <div className='products_container'>
+    <div className='product_container'>
       <div className='block'>
         <div className='droebit'>
           <h1>პროდუქტი მალე დაემატება...</h1>

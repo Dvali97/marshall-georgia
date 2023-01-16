@@ -2,6 +2,7 @@
     background-color: #161616;
     color: #fff;
     padding-top: 5%;
+    height: 100vh;
 }
 
 .accessories_content_header {
@@ -72,5 +73,28 @@
     .accessories_cover_text p {
         font-weight: 500;
         font-size: 0.5em;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .accessories_container {
+        width: 105%;
+    }
+
+    .accessories_image {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .accessories_container {
+        width: 120%;
+    }
+
+    .accessories_image {
+        width: 100%;
     }
 }
